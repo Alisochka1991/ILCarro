@@ -1,0 +1,63 @@
+package manager;
+
+import models.User;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class UserHelper extends HelperBase{
+
+    public UserHelper(WebDriver wd) {
+        super(wd);
+    }
+    public void fillLoginForm(String email, String password)
+    {
+        type(By.xpath("//input[@id='email']"), email);
+        pause(2000);
+        type(By.xpath("//input[@id='password']"), password);
+        pause(2000);
+    }
+
+    public boolean isLoginPresent() {
+        return isElementPresent(By.xpath("//a[text()=' Log in ']"));
+    }
+
+    public void logout() {
+      click(By.xpath("//a[normalize-space()='Logout']"));
+    }
+
+    public void openLoginForm() {
+        pause(2000);
+        click(By.xpath("//a[@class='navigation-link'][normalize-space()='Log in']"));
+    }
+
+    public void filolLoginForm(String email, String password) {
+        type(By.xpath("//input[@id='email']"), email);
+        type(By.xpath("//input[@id='password']"), password);
+    }
+
+    public void filolLoginForm(User user) {
+        type(By.xpath("//input[@id='email']"), user.getEmail());
+        type(By.xpath("//input[@id='password']"),user.getPassword());
+    }
+
+    public void submitForm() {
+        click(By.xpath("//button[contains(text(),'alla!')]"));
+    }
+
+    public boolean isLoggedSucceess() {
+        WebDriverWait wait = new WebDriverWait(wd, 10); //это явное ожиданмие. ждем этой командой когда появится эелемент на странице (10 сек)
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));// ждем когда элемент по локатору станет видимым
+        return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
+    }
+
+    public void clickOkButton() {
+        WebElement okButton = wd.findElement(By.xpath("//button[text()='Ok']"));
+        if(isElementPresent(By.xpath("//button[text()='Ok']")))
+        {
+            click(By.xpath("//button[text()='Ok']"));
+        }
+    }
+}
