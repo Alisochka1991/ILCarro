@@ -30,10 +30,10 @@ public class LoginTest extends TestBase{
     @Test
     public void loginSuccess()
     {
-        User user = new User().setEmail("alisiaagranov@gmail.com").setPassword("212229Alisa$");//вызываем нужные методы о СЕТТЕРАм
+        User user = new User().setEmail("alisiaagranov@gmail.com").setPassword("212229Alisa$");//вызываем нужные методы по СЕТТЕРАм
         app.getUserHelper().openLoginForm();
        // app.getUserHelper().filolLoginForm("Alisiaagranov@gmail.com","212229Alisa$");
-        app.getUserHelper().filolLoginForm(user);
+        app.getUserHelper().fillLoginForm(user);
         app.getUserHelper().submitForm();
         Assert.assertTrue(app.getUserHelper().isLoggedSucceess());
     }

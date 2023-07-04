@@ -21,7 +21,7 @@ public class UserHelper extends HelperBase{
     }
 
     public boolean isLoginPresent() {
-        return isElementPresent(By.xpath("//a[text()=' Log in ']"));
+        return isElementPresent(By.xpath("//a[@class='navigation-link'][normalize-space()='Log in']"));
     }
 
     public void logout() {
@@ -38,7 +38,7 @@ public class UserHelper extends HelperBase{
         type(By.xpath("//input[@id='password']"), password);
     }
 
-    public void filolLoginForm(User user) {
+    public void fillLoginForm(User user) {
         type(By.xpath("//input[@id='email']"), user.getEmail());
         type(By.xpath("//input[@id='password']"),user.getPassword());
     }
@@ -60,4 +60,13 @@ public class UserHelper extends HelperBase{
             click(By.xpath("//button[text()='Ok']"));
         }
     }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submitForm();
+        clickOkButton();
+        pause(2000);
+    }
+
 }
