@@ -60,8 +60,8 @@ public class CarHelper extends HelperBase{
                 return isForm;
     }
 
-    public void attachPhoto() { //predvaritelno polozit kartinky v propekt
-        wd.findElement(By.id("photos")).sendKeys("C:\\QA_30_Phonebook\\ILCarro\\1675959631284.jpg"); //kopy path iz proekta
+    public void attachPhoto(String link) { //predvaritelno polozit kartinky v propekt, send key rabotaet tolko c polem Input
+        wd.findElement(By.id("photos")).sendKeys(link); //kopy path iz proekta
     }
 
     public void submitFormCar() {
@@ -70,5 +70,17 @@ public class CarHelper extends HelperBase{
                 .until(ExpectedConditions.elementToBeClickable(submit));
         submit.submit(); //zdem poka foto gruzitsa i knopka stanet clickable
        // click(By.xpath("//button[normalize-space()='Submit']"));
+    }
+
+    public boolean isCarAdded() {
+        new WebDriverWait(wd, 10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.className("dialog-container"))));
+        String text = wd.findElement(By.cssSelector(".dialog-container h1")).getText();
+        return text.contains("Car added");// eto assert po teksty na popape
+    }
+
+    public void submitAddedCar() {
+        click(By.xpath("//button[normalize-space()='Search cars']"));
+
     }
 }
