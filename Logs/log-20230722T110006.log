@@ -1,0 +1,4 @@
+11:00:10 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+11:00:15 INFO  tests.TestBase -%PARSER_ERROR[kvp]- Start test ---->loginTest
+11:00:22 INFO  tests.TestBase -%PARSER_ERROR[kvp]- End test ---->loginTest
+11:00:22 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Tests Passed

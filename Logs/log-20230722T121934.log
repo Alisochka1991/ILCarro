@@ -1,0 +1,27 @@
+12:19:37 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+12:19:39 INFO  tests.TestBase -%PARSER_ERROR[kvp]- Start test ---->reistrationPositive
+12:19:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[text()=' Sign up ']
+12:19:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //a[text()=' Sign up ']was found
+12:19:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.id: name
+12:19:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.id: namewas found
+12:19:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.id: lastName
+12:19:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.id: lastNamewas found
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.id: email
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.id: emailwas found
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.id: password
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.id: passwordwas found
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .checkbox-container
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .checkbox-containerwas found
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[contains(text(),'alla!')]
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[contains(text(),'alla!')]was found
+12:19:40 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .dialog-container
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .dialog-containerwas found
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .dialog-container h1
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .dialog-container h1was found
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+12:19:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+12:19:42 INFO  tests.TestBase -%PARSER_ERROR[kvp]- *******************************************************reistrationPositive

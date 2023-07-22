@@ -1,0 +1,24 @@
+11:17:33 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+11:17:38 INFO  tests.TestBase -%PARSER_ERROR[kvp]- Start test ---->loginSuccess
+11:17:38 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+11:17:39 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']was found
+11:17:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+11:17:41 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']was found
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //input[@id='email']
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //input[@id='email']was found
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //input[@id='password']
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //input[@id='password']was found
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[contains(text(),'alla!')]
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[contains(text(),'alla!')]was found
+11:17:42 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .dialog-container
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .dialog-containerwas found
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .dialog-container h2
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .dialog-container h2was found
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+11:17:43 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+11:17:43 INFO  tests.TestBase -%PARSER_ERROR[kvp]- End test ---->loginSuccess
+11:17:43 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Tests Passed

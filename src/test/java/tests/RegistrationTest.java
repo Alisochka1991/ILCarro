@@ -9,6 +9,7 @@ public class RegistrationTest extends TestBase{
     @Test
     public void reistrationPositive()
     {
+        app.getCar().takescreenshot("src/test/screenshots/rst.png");//sdelat screenshot v lubom sluchae kogda test zakonchitsa
         int i = (int)((System.currentTimeMillis()/1000)%3600);
 
         User user = new User().setName("Alisa").setLastName("Sosisa")
