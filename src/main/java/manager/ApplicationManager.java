@@ -15,6 +15,8 @@ public class ApplicationManager {
 
     UserHelper userHelper;
     CarHelper car;
+    SerchHelper search;
+    String browser;
 
     public void init()
     {
@@ -25,6 +27,7 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         userHelper = new UserHelper(wd);
         car = new CarHelper(wd);
+        search=new SerchHelper(wd);
         wd.register(new MyListener());
     }
 
@@ -39,5 +42,9 @@ public class ApplicationManager {
 
     public CarHelper getCar() { //getter dlya carhelpera
         return car;
+    }
+
+    public SerchHelper getSearch() {
+        return search;
     }
 }

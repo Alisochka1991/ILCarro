@@ -1,11 +1,15 @@
 package tests;
 
+import manager.NgListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+@Listeners(NgListener.class)//chtobi listener sledil za klassom
 
 public class LoginTest extends TestBase{
     @BeforeMethod

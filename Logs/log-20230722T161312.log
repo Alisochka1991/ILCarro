@@ -1,0 +1,49 @@
+16:13:16 INFO  manager.ApplicationManager -%PARSER_ERROR[kvp]- Testts starts on Chrome Driver
+16:13:19 INFO  tests.TestBase -%PARSER_ERROR[kvp]- Start test ---->loginSuccess
+16:13:19 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+16:13:19 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']was found
+16:13:19 INFO  manager.NgListener -%PARSER_ERROR[kvp]- Start of test ---->null
+16:13:21 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+16:13:21 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']was found
+16:13:21 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //input[@id='email']
+16:13:21 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //input[@id='email']was found
+16:13:22 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //input[@id='password']
+16:13:22 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //input[@id='password']was found
+16:13:22 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[contains(text(),'alla!')]
+16:13:22 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[contains(text(),'alla!')]was found
+16:13:22 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .dialog-container
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .dialog-containerwas found
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.cssSelector: .dialog-container h2
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.cssSelector: .dialog-container h2was found
+16:13:23 INFO  manager.NgListener -%PARSER_ERROR[kvp]- Success test ---->null
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //button[text()='Ok']
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //button[text()='Ok']was found
+16:13:23 INFO  tests.TestBase -%PARSER_ERROR[kvp]- *******************************************************loginSuccess
+16:13:23 INFO  tests.TestBase -%PARSER_ERROR[kvp]- Start test ---->loginTest
+16:13:23 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']
+16:13:29 INFO  manager.MyListener -%PARSER_ERROR[kvp]- The element with locator --->By.xpath: //a[@class='navigation-link'][normalize-space()='Log in']was found
+16:13:29 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Start search element by locator --->By.xpath: //a[normalize-space()='Logout']
+16:13:30 INFO  manager.MyListener -%PARSER_ERROR[kvp]- Something went wrong
+16:13:30 INFO  manager.MyListener -%PARSER_ERROR[kvp]- no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e88a0124b484404ad75f6ad39730fcd
+*** Element info: {Using=xpath, value=//a[normalize-space()='Logout']}
+16:13:30 INFO  manager.MyListener -%PARSER_ERROR[kvp]- org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=113.0.5672.129)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TKIRCF4L', ip: '192.168.1.11', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\alisi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60857}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e88a0124b484404ad75f6ad39730fcd
+*** Element info: {Using=xpath, value=//a[normalize-space()='Logout']}
+16:13:30 INFO  manager.NgListener -%PARSER_ERROR[kvp]- Start of test ---->null
